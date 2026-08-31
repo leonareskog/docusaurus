@@ -5,16 +5,16 @@ export default function ITidning() {
   const [selectedPDF, setSelectedPDF] = useState(null);
 
   const previousIssues = [
-    { title: 'I-tidningen 26', date: '2026', file: 'INDEX4.pdf' },
-    { title: 'I-tidningen 25', date: '2025', file: 'INDEX3.pdf' },
-    { title: 'I-tidningen 24', date: '2024', file: 'INDEX2.pdf' },
-    { title: 'I-tidningen 23', date: '2023', file: 'INDEX1.pdf' },
+    { title: 'INDEX 26', date: '2026', file: 'INDEX4.pdf' },
+    { title: 'INDEX 25', date: '2025', file: 'INDEX3.pdf' },
+    { title: 'INDEX 24', date: '2024', file: 'INDEX2.pdf' },
+    { title: 'INDEX 23', date: '2023', file: 'INDEX1.pdf' },
   ];
 
   return (
-    <Layout title="I-tidningen" description="I-sektionens tidning">
+    <Layout title="INDEX" description="I-sektionens tidning">
       <div style={{ padding: '40px 20px' }}>
-        <h1 style={{ textAlign: 'center' }}>I-tidningen</h1>
+        <h1 style={{ textAlign: 'center' }}>INDEX</h1>
 
         <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
           {!selectedPDF ? (
