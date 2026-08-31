@@ -110,7 +110,7 @@ const config = {
           
           { to: '/business', label: 'För Företag', position: 'left' },
           {
-            label: 'I-tidningen',
+            label: 'INDEX',
             to: '/i-tidning',  // Pekar alltid till svenska, oavsett språk
             position: 'left',
           },
